@@ -1,0 +1,14 @@
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka
+server:
+  port: 0
+spring:
+  application:
+    name: payments-service
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: payment
